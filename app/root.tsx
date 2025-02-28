@@ -35,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           content='Descubre las maravillas del cosmos. Disfruta de la Imagen Astronómica del Día y conoce los objetos cercanos a la Tierra. Ejercicio de aprendizaje con React Router consumiendo el API de la NASA.'
         />
         <meta property='og:image' content='https://harry-potter-sigma-gray.vercel.app/harry.jpeg' />
-        <meta property='og:url' content='' />
+        <meta property='og:url' content='https://nasa-explorer-omega.vercel.app/nasa.webp' />
         <meta property='og:type' content='website'></meta>
         <Meta />
         <Links />
