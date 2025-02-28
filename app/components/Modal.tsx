@@ -31,7 +31,7 @@ export const Modal = ({ isOpen, onClose, activeSection }: ModalProps) => {
   }, [date]);
 
   return (
-    <div className='fixed h-screen w-screen  inset-0 backdrop-blur-lg flex justify-center items-center p-4'>
+    <div className='fixed h-screen w-screen  inset-0 backdrop-blur-lg flex justify-center items-center p-4 z-40'>
       <div className='bg-[#1E3D59] p-6 rounded-lg shadow-lg max-w-md w-full mx-4 text-center'>
         <h2 className='text-xl font-bold mb-4 text-white'>
           {activeSection === 'apod' ? 'Seleccionar fecha' : 'Seleccionar rango de fechas'}
