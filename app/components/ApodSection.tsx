@@ -40,6 +40,10 @@ export const ApodSection: React.FC<ApodProps> = ({ darkMode, dataImage }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  useEffect(() => {
+    setCurrentApod(Array.isArray(dataImage) ? dataImage[0] : dataImage);
+  }, [dataImage]);
+
   const handleDownload = () => {
     window.open(currentApod.hdurl, '_blank');
   };
