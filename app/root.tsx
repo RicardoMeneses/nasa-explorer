@@ -37,6 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta property='og:image' content='https://nasa-explorer-omega.vercel.app/nasa.webp' />
         <meta property='og:url' content='https://nasa-explorer-omega.vercel.app' />
         <meta property='og:type' content='website'></meta>
+        <meta property='og:site_name' content='Explorador de la NASA' />
         <Meta />
         <Links />
       </head>

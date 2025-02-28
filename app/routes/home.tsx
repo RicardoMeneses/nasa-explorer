@@ -132,10 +132,10 @@ export default function Home() {
           >
             <BsCalendar2 className='h-4 w-4' /> Selecionar fechas
           </button>
-
-          <Modal isOpen={isOpenModal} onClose={toggleModal} activeSection={activeSection} />
         </div>
       </div>
+
+      <Modal isOpen={isOpenModal} onClose={toggleModal} activeSection={activeSection} />
 
       <main className='relative z-10 pt-10 md:pt-20'>
         {activeSection === 'apod' && <ApodSection darkMode={darkMode} dataImage={dataImage} />}

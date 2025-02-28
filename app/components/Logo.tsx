@@ -14,7 +14,7 @@ export const NasaLogo: React.FC<NasaLogoProps> = ({ darkMode }) => {
           darkMode ? 'text-white' : 'text-[#1E3D59]'
         }`}
       >
-        NASA Explorer
+        Exporador de la NASA
       </span>
     </div>
   );

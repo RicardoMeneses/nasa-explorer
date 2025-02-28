@@ -28,7 +28,7 @@ export const LoadingScreen: React.FC = () => {
       <div className='animate-pulse'>
         <BsRocketTakeoff className='h-16 w-16 text-white' />
       </div>
-      <h1 className='text-white text-2xl font-bold mt-6 tracking-widest'>NASA EXPLORER</h1>
+      <h1 className='text-white text-2xl font-bold mt-6 tracking-widest'>Explorador de la NASA</h1>
       <div className='w-64 h-1 bg-gray-800 rounded-full mt-8 overflow-hidden'>
         <div
           className='h-full bg-gradient-to-r from-[#1E3D59] to-[#E31837] rounded-full transition-all duration-300 ease-out'
